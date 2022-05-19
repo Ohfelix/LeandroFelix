@@ -102,12 +102,17 @@ ul{
 }
 
 a{
+ color: var(--text-color);
   text-decoration: none;
 }
 
 img{
   max-width: 100%;
   height: auto;
+}
+.questions__group a{
+  color: white;
+  text-decoration:dashed;
 }
 
 /*=============== THEME ===============*/
