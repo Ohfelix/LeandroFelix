@@ -736,6 +736,7 @@ the website, in dark theme
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 3rem;
+
 }
 
 .footer__logo{
@@ -823,6 +824,7 @@ the website, in dark theme
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
   margin: 5rem 0 1rem;
+  
 }
 
 /*=============== SCROLL UP ===============*/
