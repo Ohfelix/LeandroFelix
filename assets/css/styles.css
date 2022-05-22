@@ -95,6 +95,7 @@ button{
 h1,h2,h3{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+ 
 }
 
 ul{
@@ -369,6 +370,23 @@ the website, in dark theme
 
 .home__social-link:hover{
   transform: translateX(.25rem);
+  color: blue;
+}
+.ri-instagram-line:hover::before{
+  color:orange;
+
+}
+.ri-linkedin-line:hover::before{
+  color:blue;
+}
+.ri-whatsapp-fill:hover::before{
+  color:green;
+  background-color:white;
+  border-radius: 100%;
+}
+.home__social-link_ri-linkedin-line:hover{
+  transform: translateX(.25rem);
+ 
 }
 
 /*=============== BUTTONS ===============*/
@@ -393,7 +411,8 @@ the website, in dark theme
 
 .button:hover .button__icon{
   transform: translateX(.25rem);
-  color: var(--first-color)
+  color: white;
+  /*var(--first-color)*/
 }
 
 .button--flex{
