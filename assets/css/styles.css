@@ -373,11 +373,15 @@ the website, in dark theme
   color: blue;
 }
 .ri-instagram-line:hover::before{
-  color:orange;
+  color:white;
+  background-color:orange;
+  border-radius: 3px;
 
 }
 .ri-linkedin-line:hover::before{
-  color:blue;
+  color:white;
+  background-color:blue;
+  border-radius: 3px;
 }
 .ri-whatsapp-fill:hover::before{
   color:green;
@@ -1010,7 +1014,7 @@ the website, in dark theme
   }
 
   .home{
-    padding: 13rem 0 5rem;
+    padding: 7rem 0 5rem;
   }
   .home__img{
     width: 350px;
