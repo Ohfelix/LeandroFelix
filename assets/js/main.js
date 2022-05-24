@@ -125,6 +125,35 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+const productGrid = document.querySelectorAll('.steps__container')  //accordionItem
+
+accordionItems.forEach((item) =>{
+    const  productItem = item.querySelector('.steps__card') //accordionHeader
+
+     productItem.addEventListener('click', () =>{
+        const openItem = document.querySelector('.steps__card-description')
+
+        toggleItem(item)
+
+        if(openItem && openItem!== item){
+            toggleItem(openItem)
+        }
+    })
+})
+
+const toggleIte = (item) =>{
+    const accordionContent = item.querySelector('.questions__content')
+
+    if(item.classList.contains('accordion-open')){
+        accordionContent.removeAttribute('style')
+        item.classList.remove('accordion-open')
+    }else{
+        accordionContent.style.height = accordionContent.scrollHeight + 'px'
+        item.classList.add('accordion-open')
+    }
+
+}
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
