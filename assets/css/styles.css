@@ -81,7 +81,7 @@ textarea{
 
 body{
   margin: var(--header-height) 0 0 0;
-  background-color: var(--body-color);
+  background: var(--body-color);
   color: var(--text-color);
   transition: .4s; /*For animation dark mode*/
 }
@@ -437,6 +437,7 @@ the website, in dark theme
 }
 
 /*=============== ABOUT ===============*/
+
 .about__container{
   row-gap: 2rem;
 }
