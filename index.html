@@ -22,9 +22,13 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         
-          <!--=============== particle js. background ===============-->
-        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
         <title>Site portfolio</title>
     </head>
@@ -89,7 +93,7 @@
                               afins de aumentar as escabilidade não só do negocio como dos codigo da plataforma.
                              A plataforma permite que os usuários façam algum comentário na area ABAIXO e ENTRE EM CONTATO PELOS
                              LINK'S DO WHATSAPP E INSTAGRAM encontrados nos Botões sublinhados. Conheça mais sobre minha trajetoria profissional 
-                             através do <a href="#home"></a>linkedin.
+                             através do <a href="#home"></a>linkedin. <br>
                         </p>
                         <a href="#about" class="button button--flex">
                             Explore <i class="ri-arrow-right-down-line button__icon"></i>
@@ -113,8 +117,21 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section container" id="about">
-                <div class="about__container grid">                    
-                    <img src="assets/images/siteperfil.png" alt="imagem-ecomerce-mercadolivre" class="about__img">                 
+                <div class="about__container grid">  
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/images/blusafembranca.png" alt="imagem-ecomerce-mercadolivre" class="d-block w-100" class="about__img"> 
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/cropped Holister.png" alt="imagem-ecomerce-mercadolivre" class="d-block w-100" class="about__img"> 
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/Perfume socal.png" alt="imagem-ecomerce-mercadolivre" class="d-block w-100" class="about__img"> 
+                          </div>
+                        </div>
+                      </div>                  
+                                  
                     <div class="about__data">
                         <h2 class="section__title about__title">
                             O que estamos fazendo ?
